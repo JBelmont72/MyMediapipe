@@ -102,3 +102,10 @@ To confirm the remote has been added, run git remote -v:
 
 To finally push the repo, run git push -u origin <branch-name>
 (“main” is the name of that branch for me). It could be master or Main for you. Initially, it was “master”, so I ran git branch -M main to change it.
+
+
+
+if git asks you for credentials  you can use 
+'git config credential.helper 'cache -- timeout== 36000(0r other number of seconds)
+or the defalut time which is not long is
+'git config credential.helper cache'
