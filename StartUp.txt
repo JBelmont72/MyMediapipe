@@ -1,0 +1,70 @@
+pip install opencv-python
+Install Homebrew from here
+A bunch of dependencies are needed for dlib:
+
+brew install cmake
+brew install boost
+brew install boost-python
+brew install dlib
+pip3 install numpy
+pip3 install scipy
+pip3 install scikit-image
+pip3 install dlib
+If this does not work, try:
+
+python3 -m pip install dlib
+
+from https://stackoverflow.com/questions/54719496/how-to-install-dlib-for-python-on-mac
+
+pip install mediapipe
+
+packages installed:
+absl-py                 2.1.0
+attrs                   23.2.0
+cffi                    1.16.0
+click                   8.1.7
+contourpy               1.2.1
+cycler                  0.12.1
+dlib                    19.24.4
+face-recognition        1.3.0
+face-recognition-models 0.3.0
+flatbuffers             24.3.25
+fonttools               4.53.0
+imageio                 2.34.2
+importlib_metadata      8.0.0
+importlib_resources     6.4.0
+jax                     0.4.30
+jaxlib                  0.4.30
+kiwisolver              1.4.5
+lazy_loader             0.4
+matplotlib              3.9.0
+mediapipe               0.10.14
+ml-dtypes               0.4.0
+networkx                3.2.1
+numpy                   2.0.0
+opencv-contrib-python   4.10.0.84
+opencv-python           4.10.0.84
+opt-einsum              3.3.0
+packaging               24.1
+pillow                  10.3.0
+pip                     24.1
+protobuf                4.25.3
+pycparser               2.22
+pyparsing               3.1.2
+python-dateutil         2.9.0.post0
+scikit-image            0.24.0
+scipy                   1.13.1
+setuptools              70.1.1
+six                     1.16.0
+sounddevice             0.4.7
+tifffile                2024.6.18
+wheel                   0.43.0
+zipp                    3.19.2
+
+for demo Images   ttps://github.com/mcwhorpj/demoImages
+
+https://www.geeksforgeeks.org/python-opencv-cv2-erode-method/?ref=lbp
+fix erros in cmake
+https://hatchjs.com/error-cmake-must-be-installed-to-build-dlib/
+OPENCV documentation
+https://docs.opencv.org/3.4/da/d6e/tutorial_py_geometric_transformations.html
