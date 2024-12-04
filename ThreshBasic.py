@@ -12,7 +12,7 @@ img = cv2.imread(".venv/images/Images/baboon.jpg")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # Thresholding the image placing 127 intensity level as threshold
 # Pixel values below 127 would be changed to Black
-# Pixel values above 127 would be changed to White (255)
+# Pixel  values above 127 would be changed to White (255)
 ret, thresh = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
 #### inverse of threshold
 ret, threshInv = cv2.threshold(img, 127, 225, cv2.THRESH_BINARY_INV)
