@@ -1,4 +1,4 @@
- 
+
 '''
 https://www.geeksforgeeks.org/image-resizing-using-opencv-python/?ref=lbp
 cv2.INTER_AREA: This is used when we need to shrink an image.
@@ -12,8 +12,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread( 'images/WestPoint.jpeg')
-# image = cv2.imread( '.venv/images/demoImages/known/Bill Barr.jpg')
+image = cv2.imread( '.venv/images/demoImages/known/Bill Barr.jpg')
 # Loading the image
 
 half = cv2.resize(image, (0, 0), fx = 0.1, fy = 0.1)
