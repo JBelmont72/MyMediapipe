@@ -11,7 +11,7 @@ import cv2
 import numpy as np 
 
 # path 
-path = '.venv/images/Images/baboon.jpg'
+path = 'images/HappyFish.jpg'
 
 # Reading an image in default mode 
 image = cv2.imread(path) 
